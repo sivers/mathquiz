@@ -72,7 +72,7 @@ answers = []
 session = Time.now().to_s
 
 # Loop for this many questions
-(1..50).each do |turn|
+(1..40).each do |turn|
 
   # review wrong/slow from last session
   question = review_question(last_wrong, last_slow)
